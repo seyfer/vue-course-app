@@ -1,0 +1,23 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "./slide-animation.scss";
+
+body {
+    padding: 30px;
+}
+
+.danger {
+    border: 1px solid red;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding: 3px;
+}
