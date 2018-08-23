@@ -7,6 +7,6 @@ services:
       - .:/usr/app/
       - ./node_modules:/usr/app/node_modules
     ports:
-      - "80:80"
+      - "89:80"
     environment:
       - NODE_ENV=production
